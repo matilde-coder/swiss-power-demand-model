@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+*.Rproj
+
+# Data: keep the small cached inputs so the project runs without the
+# sibling DuckDB database; never commit databases or large raw files.
+*.duckdb
+*.duckdb.wal
+data/raw/
+data/daily.csv
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+.env

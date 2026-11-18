@@ -1,0 +1,31 @@
+dimension,group,model,days,MAPE_pct,bias_pct
+season,autumn,gradient_boosting,182,2.68,-2.03
+season,spring,gradient_boosting,184,2.5,-1.68
+season,summer,gradient_boosting,184,3.05,-2.6
+season,winter,gradient_boosting,181,1.9,0.28
+season,autumn,linear,182,3.62,-0.93
+season,spring,linear,184,3.43,-1.39
+season,summer,linear,184,3.57,-2.8
+season,winter,linear,181,2.97,-0.52
+season,autumn,rule_last_week,182,3.98,2.16
+season,spring,rule_last_week,184,7.21,-2.36
+season,summer,rule_last_week,184,4.03,0.01
+season,winter,rule_last_week,181,5.75,-0.37
+day_type,Monday,gradient_boosting,105,2.35,-1.19
+day_type,Saturday,gradient_boosting,104,2.81,-2.22
+day_type,Sunday,gradient_boosting,104,3.53,-3.04
+day_type,Tue-Fri,gradient_boosting,418,2.27,-1.04
+day_type,Monday,linear,105,3.37,-1.75
+day_type,Saturday,linear,104,3.84,-1.23
+day_type,Sunday,linear,104,3.66,-1.23
+day_type,Tue-Fri,linear,418,3.23,-1.42
+day_type,Monday,rule_last_week,105,5.7,-0.1
+day_type,Saturday,rule_last_week,104,5.11,-0.11
+day_type,Sunday,rule_last_week,104,4.68,-0.13
+day_type,Tue-Fri,rule_last_week,418,5.3,-0.17
+holiday,normal day,gradient_boosting,713,2.49,-1.48
+holiday,public holiday,gradient_boosting,18,4.19,-3.0
+holiday,normal day,linear,713,3.34,-1.35
+holiday,public holiday,linear,18,5.7,-3.86
+holiday,normal day,rule_last_week,713,4.98,0.22
+holiday,public holiday,rule_last_week,18,15.77,-14.54
